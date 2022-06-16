@@ -5,7 +5,7 @@ function MuiTable() {
     <TableContainer component={Paper} sx={{maxHeight : '300px'}}>
         <Table aria-label=" simple table" stickyHeader>
            <TableHead>
-               <TableRow>
+               <TableRow >
                <TableCell>Id</TableCell>
                <TableCell>First Name</TableCell>
                <TableCell>Last Name</TableCell>
